@@ -1,0 +1,123 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(30, 18%, 87%);
+  margin: 30px;
+  padding: 10px 200px 10px 200px;
+  height: 80%;
+  width: inherit;
+  text-align: left;
+
+}
+
+main {
+  background-color: hsl(30, 54%, 90%);
+  border-radius: 30px;
+  align-items: center;
+  width: 80%;
+}
+
+
+  img {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+
+main,
+.ingredientes,
+.instrucoes,
+.nutricoes {
+  background-color: hsl(30, 54%, 90%);
+  padding: 5% 10% 5% 10%;
+}
+
+h1 {
+  font-family: YoungSerif-Regular;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  font-family: ;
+}
+
+h2 {
+  font-family: Outfit-Bold;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  margin: 30px;
+}
+
+p {
+  font-family: Outfit-Light;
+  font-size: 16px;
+  width: 90%;
+  padding: 10px 30px;
+
+
+}
+
+.tempoDePreparo {
+  position: relative;
+  left: 30px;
+  background-color: hsl(30, 18%, 87%);
+  width: 70%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 2% 10% 5% 10%;
+}
+
+
+ul,
+ol {
+  font-family: Outfit-light;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 60px;
+}
+
+ol {
+  width: 90%;
+}
+
+b {
+  font-family: Outfit-Medium;
+  font-weight: bold;
+}
+
+
+
+
+table {
+  width: 100%;
+  padding: 40px 30px;
+}
+
+tr,
+th,
+td {
+  width: 50%;
+  height: 50px;
+  display: -ms-flexbox;
+  flex-direction: column;
+  border-top: 1px solid rgba(1, 1, 1, 0.1);
+  border-radius: 5px;
+  padding: 2px;
+}
+
+tr:nth-child(even) {
+  background-color: hsl(30, 18%, 87%);
+}
+
+th {
+  text-align: left;
+  font-weight: bold;
+}
+
+td {
+  text-align: left;
+}
